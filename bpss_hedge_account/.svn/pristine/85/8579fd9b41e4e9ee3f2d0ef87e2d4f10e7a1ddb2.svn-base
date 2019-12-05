@@ -1,0 +1,18 @@
+package br.com.bpss.hg.service;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.bpss.hg.repository.MainRepository;
+
+@Service("utilsService")
+public class UtilsServiceImpl implements UtilsService {
+	
+	@Autowired
+	private MainRepository mainRepository;
+
+	final static Logger logger = Logger.getLogger(UtilsServiceImpl.class);
+
+	
+}

@@ -1,0 +1,6 @@
+package br.com.bpss.hg.service;
+
+public interface UtilsService {
+	
+	
+}

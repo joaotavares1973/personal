@@ -1,0 +1,4 @@
+mail.smtp.host=smtp.gmail.com
+mail.smtp.porta=587
+mail.smtp.usuario=usuario	
+mail.smtp.senha=senha
